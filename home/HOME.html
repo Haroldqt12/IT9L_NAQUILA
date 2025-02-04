@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My Portfolio</title>
+    <style>
+        .home {
+            background-color: rgb(46, 20, 72);
+            color: white;
+            padding: 105px 0;
+        }
+
+        .home-img {
+            border-radius: 50%;
+            overflow: hidden;
+            width: 300px;
+            height: 300px;
+        }
+
+        .home-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            color: white;
+            font-size: 2rem;
+            transition: transform 0.3s, color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: rgb(249, 9, 9);
+            transform: scale(1.2);
+        }
+
+        .btn {
+            background-color: #877f82;
+            color: white;
+            padding: 12px 24px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: #705d66;
+        }
+
+        body {
+            background-color: rgb(46, 20, 72);
+        }
+
+        footer {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+   
+    <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
+        <div class="container mb-7">
+            <a class="navbar-brand fw-bold ">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="HOME.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="home text-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <div class="home-img mx-auto">
+                        <img src="what.jpg" alt="Profile Image">
+                    </div>
+                </div>
+                <div class="col-md-6 text-md-start">
+                    <h1 class="display-4">Hello, it's <span class="text-danger">Nacks</span></h1>
+                    <p class="lead">Welcome to my portfolio! Here you will find my projects, skills, and experience.</p>
+                    <div class="social-icons d-flex justify-content-center justify-content-md-start gap-4 my-4">
+                        <a href="https://www.facebook.com/haroldjohn.naquila.7"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://github.com/Haroldqt12"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://mail.google.com/chat/u/0/?redirect_pwa_promo=1#chat/home"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://www.instagram.com/naquilaharold/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="about.html" class="btn btn-lg">CLICK ME</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
