@@ -15,7 +15,7 @@ try {
     }
     $stmt->close();
 
-
+// diri to akong problem josh
     if ($_SERVER['REQUEST_METHOD'] === "POST") {
         $Acc_number = $_POST['number'];
         $Amount = $_POST['amount'];
